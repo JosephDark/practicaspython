@@ -1,7 +1,7 @@
 #Ejemplos de la funcion Print
 print("Hola mundo")
 print("Hola mundo", "Otra vez")
-print("Son las", 9,"de la mañamna")
+print("Son las", 9,"de la mañana")
 print("El resultado de 3 * 4 es:", 3*4)
 
 #Ejemplos con cadenas formateadas
