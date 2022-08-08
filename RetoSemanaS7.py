@@ -6,13 +6,13 @@ alumnos = 0
 
 cantidad_alumnos = input ("¿Cuantos alumnos deseas ingresar?: ")
 
-#qty_alumnos = int(cantidad_alumnos)
+
 
 
 while not cantidad_alumnos.isdigit() or int(cantidad_alumnos) >=10 or cantidad_alumnos.isalpha():
     print("Opcion  inválida", end = "\n")
     cantidad_alumnos = input ("¿Cuantos alumnos deseas ingresar?: ")
-    #qty_alumnos = int(cantidad_alumnos)
+    
 
 
 
@@ -39,21 +39,15 @@ while alumnos < int(cantidad_alumnos):
 
 
                 if opcion2 == "1":
-                    #boleta.append(calificacion)
+                    
                     cont_calif +=1
                 elif opcion2 == "2":
-                    #boleta.append(calificacion)
+                    
                     break
-                # else:
-                #     print("se ha tecleado una opcion invalida")
-                #     continue
-                #     #opcion2 = input(f"¿Desea ingresar otra calificacion de {nombre}?: (1) Si (2) No: ")
+                
 
         lista.append(boleta)            
-        # calificacion1 = int(input(f"Ingrese la primera calificación de {nombre}: "))
-        # calificacion2 = int(input(f"Ingrese la segunda calificación de {nombre}: "))
-        # alumno = [nombre, calificacion1, calificacion2]
-        # lista.append(alumno)
+        
         alumnos +=1
     elif opcion == "2":
         print(f"El programa ha sido terminado con {alumnos} alumnos")
@@ -82,4 +76,3 @@ for x in range(len(lista)):
     print(f"Promedio: {promedio}", end = "\n")      
 
 
-#print(lista)
